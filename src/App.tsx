@@ -157,7 +157,7 @@ function App() {
       </div>
 
       <div className="results-meta">
-        {filteredData.length} 件のお手持ちのお店が見つかりました
+        {filteredData.length} 件のお店が見つかりました
       </div>
 
       <div className="store-list">
