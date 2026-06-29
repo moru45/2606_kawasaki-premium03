@@ -210,4 +210,11 @@ body {
   .app-container {
     padding: 12px;
   }
+  .app-title {
+    font-size: clamp(1.05rem, 4.2vw, 1.5rem);
+    letter-spacing: -0.5px;
+  }
+  .app-header {
+    padding: 16px 12px;
+  }
 }

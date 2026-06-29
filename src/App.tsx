@@ -90,7 +90,7 @@ function App() {
         <h1 className="app-title">川崎市プレミアムデジタル商品券</h1>
         <p className="app-subtitle">【非公式】使えるお店検索</p>
         <div className="story-box">
-          <p><strong>「PDFだと検索が…」</strong>と思ったので、スマホでもお店を探せるWebアプリを作りました！</p>
+          <p><strong>「PDFだと検索が…」</strong>そこで、スマホでもお店を探せるアプリ作りました！</p>
         </div>
       </header>
 
