@@ -75,6 +75,15 @@ function App() {
     setVisibleCount(ITEMS_PER_PAGE);
   };
 
+  const handleResetFilters = () => {
+    setSearchQuery('');
+    setSelectedWard('');
+    setSelectedTown('');
+    setSelectedIndustry('');
+    setTicketFilter('');
+    setVisibleCount(ITEMS_PER_PAGE);
+  };
+
   return (
     <div className="app-container">
       <header className="app-header">
@@ -134,6 +143,12 @@ function App() {
               <option value="common">共通券が使える</option>
               <option value="exclusive">専用券が使える</option>
             </select>
+          </div>
+          
+          <div className="filter-group reset-group">
+            <button className="reset-button" onClick={handleResetFilters}>
+              条件をリセット
+            </button>
           </div>
         </div>
       </div>

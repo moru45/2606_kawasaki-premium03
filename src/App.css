@@ -129,6 +129,30 @@ body {
   border-color: #3b82f6;
 }
 
+.reset-group {
+  justify-content: flex-end;
+  min-width: 120px;
+}
+
+.reset-button {
+  padding: 10px;
+  background-color: #f1f5f9;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  height: 40px; /* match select box approx height */
+  margin-top: auto;
+}
+
+.reset-button:hover {
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
 .results-meta {
   font-size: 1rem;
   color: #64748b;
