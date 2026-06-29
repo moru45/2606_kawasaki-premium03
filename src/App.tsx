@@ -88,7 +88,10 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1 className="app-title">川崎市プレミアムデジタル商品券</h1>
-        <p className="app-subtitle">【非公式】使えるお店検索</p>
+        <p className="app-subtitle">
+          <span className="subtitle-main">使えるお店検索</span>
+          <span className="subtitle-sub">（非公式です。）</span>
+        </p>
         <div className="story-box">
           <p><strong>「PDFだと検索が…」</strong>そこで、スマホでもお店を探せるアプリ作りました！</p>
         </div>

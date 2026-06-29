@@ -31,10 +31,19 @@ body {
 }
 
 .app-subtitle {
-  color: #dc2626;
   font-size: 1rem;
   font-weight: 700;
   margin: 0;
+}
+
+.subtitle-main {
+  color: #0f172a;
+}
+
+.subtitle-sub {
+  color: #dc2626;
+  font-size: 0.9em;
+  margin-left: 4px;
 }
 
 .story-box {
